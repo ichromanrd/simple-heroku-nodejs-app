@@ -1,0 +1,15 @@
+{
+  "name": "heroku-simple-node-app",
+  "version": "1.0.0",
+  "description": "simple node app on heroku",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ichroman Raditya Duwila",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
