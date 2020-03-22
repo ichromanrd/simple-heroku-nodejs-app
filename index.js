@@ -11,6 +11,6 @@ app.get('/api/v1/student', function(req, res) {
     );
 });
 
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
     console.log('Simple node app listen on port 3000');
 });
